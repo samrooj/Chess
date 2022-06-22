@@ -5,21 +5,23 @@ import javax.swing.border.LineBorder;
 import java.awt.*;
 
 public class Board {
-    private Piece[][] chessBoard;
+    private Tile[][] chessBoard;
 
     public Board() {
-        initializePieces();
         initializeBoard();
+        initializePieces();
+    }
+
+    public void initializeBoard(){
+        chessBoard = new Tile[][]{{}};
+
     }
 
     public void initializePieces(){
         for(int i = 0; i < 8; i++){
-            Pawn pawn = new
+            // Pawn pawn = new
         }
     }
 
-    public void initializeBoard(){
-        chessBoard = new Piece[][]{{}};
 
-    }
 }
