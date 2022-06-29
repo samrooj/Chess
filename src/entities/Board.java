@@ -13,15 +13,18 @@ public class Board {
     }
 
     public void initializeBoard(){
-        chessBoard = new Tile[][]{{}};
+        chessBoard = new Tile[][]{{new Tile('a', 8, null)}};
 
     }
 
     public void initializePieces(){
         for(int i = 0; i < 8; i++){
             // Pawn pawn = new
+
         }
     }
+
+
 
 
 }

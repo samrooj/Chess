@@ -13,3 +13,4 @@ public class Pawn extends Piece implements Movable{
     }
 }
 // if Tile plus one y isempty that is added to move
+// or if piece at tile y + 1 and x+-1 is != piece.color
